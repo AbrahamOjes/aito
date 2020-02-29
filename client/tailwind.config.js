@@ -1,0 +1,151 @@
+module.exports = {
+  theme: {
+    fontFamily: {
+      display: ["Open Sans", "sans-serif"],
+      body: ["Open Sans", "sans-serif"]
+    },
+    extend: {
+      colors: {
+        // Primary
+        "blue-050": "#DCEEFB",
+        "blue-100": "#B6E0FE",
+        "blue-200": "#84C5F4",
+        "blue-300": "#62B0E8",
+        "blue-400": "#4098D7",
+        "blue-500": "#2680C2",
+        "blue-600": "#186FAF",
+        "blue-700": "#0F609B",
+        "blue-800": "#0A558C",
+        "blue-900": "#003E6B",
+
+        "yellow-vivid-050": "#FFFBEA",
+        "yellow-vivid-100": "#FFF3C4",
+        "yellow-vivid-200": "#FCE588",
+        "yellow-vivid-300": "#FADB5F",
+        "yellow-vivid-400": "#F7C948",
+        "yellow-vivid-500": "#F0B429",
+        "yellow-vivid-600": "#DE911D",
+        "yellow-vivid-700": "#CB6E17",
+        "yellow-vivid-800": "#B44D12",
+        "yellow-vivid-900": "#8D2B0B",
+
+        // Neutrals
+        "blue-gray-050": "#F0F4F8",
+        "blue-gray-100": "#D9E2EC",
+        "blue-gray-200": "#BCCCDC",
+        "blue-gray-300": "#9FB3C8",
+        "blue-gray-400": "#829AB1",
+        "blue-gray-500": "#627D98",
+        "blue-gray-600": "#486581",
+        "blue-gray-700": "#334E68",
+        "blue-gray-800": "#243B53",
+        "blue-gray-900": "#102A43",
+
+        // Supporting
+        "cyan-050": "#E0FCFF",
+        "cyan-100": "#BEF8FD",
+        "cyan-200": "#87EAF2",
+        "cyan-300": "#54D1DB",
+        "cyan-400": "#38BEC9",
+        "cyan-500": "#2CB1BC",
+        "cyan-600": "#14919B",
+        "cyan-700": "#0E7C86",
+        "cyan-800": "#0A6C74",
+        "cyan-900": "#044E54",
+
+        "red-050": "#FFEEEE",
+        "red-100": "#FACDCD",
+        "red-200": "#F29B9B",
+        "red-300": "#E66A6A",
+        "red-400": "#D64545",
+        "red-500": "#BA2525",
+        "red-600": "#A61B1B",
+        "red-700": "#911111",
+        "red-800": "#780A0A",
+        "red-900": "#610404",
+
+        //White
+        white: "#ffffff",
+        //black
+        black: "#000000",
+        "black-light": "#222222"
+      },
+      height: {
+        "20": "5rem",
+        "24": "6rem",
+        "28": "7rem",
+        "32": "8rem",
+        "40": "10rem",
+        "48": "12rem",
+        "64": "16rem",
+        "70": "18rem",
+        "76": "24rem",
+        "80": "26rem",
+        "84": "28rem",
+        "88": "32rem",
+        "1/2": "50%",
+        "1/3": "33.33333%",
+        "2/3": "66.66667%",
+        "1/4": "25%",
+        "3/4": "75%",
+        "1/5": "20%",
+        "2/5": "40%",
+        "3/5": "60%",
+        "4/5": "80%",
+        "1/6": "16.66667%",
+        "5/6": "83.33333%",
+        "6/7": "90%",
+        full: "100%",
+        screen: "100vh"
+      },
+      width: {
+        auto: "auto",
+        px: "1px",
+        "1": "0.25rem",
+        "2": "0.5rem",
+        "3": "0.75rem",
+        "4": "1rem",
+        "5": "1.25rem",
+        "6": "1.5rem",
+        "8": "2rem",
+        "10": "2.5rem",
+        "12": "3rem",
+        "16": "4rem",
+        "20": "5rem",
+        "24": "6rem",
+        "32": "8rem",
+        "48": "12rem",
+        "64": "16rem",
+        "72": "18rem",
+        "76": "19rem",
+        "80": "20rem",
+        "84": "21rem",
+        "88": "22rem",
+        "92": "23rem",
+        "94": "24rem",
+        "100": "25rem",
+        "1/2": "50%",
+        "1/3": "33.33333%",
+        "2/3": "66.66667%",
+        "1/4": "25%",
+        "3/4": "75%",
+        "1/5": "20%",
+        "2/5": "40%",
+        "3/5": "60%",
+        "4/5": "80%",
+        "1/6": "16.66667%",
+        "5/6": "83.33333%",
+        full: "100%",
+        screen: "100vw"
+      },
+      margin: {
+        // "96": "24rem",
+        // "128": "32rem"
+      }
+    }
+  },
+  variants: {
+    tableLayout: ["responsive", "hover", "focus"]
+  },
+  plugins: []
+};

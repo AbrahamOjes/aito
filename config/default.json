@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb://localhost:27017/feta-app",
+    "jwtSecret": "adminsecrettoken",
+    "jwtUserAuthSecret": "usersecrettoken",
+    "Password": "bVjWSsPMKi"
+}
